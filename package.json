@@ -1,0 +1,30 @@
+{
+  "name": "flytzapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikski/flytzapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wikski/flytzapi/issues"
+  },
+  "homepage": "https://github.com/wikski/flytzapi#readme",
+  "dependencies": {
+    "good": "^7.2.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "hapi": "^16.5.0",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
